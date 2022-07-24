@@ -1,0 +1,289 @@
+body {
+    background-image: url(img/wallpaper1.jpg);
+    background-repeat: repeat-y;
+    /*Contain: whole image will be shown only neglecting if there is some space left around the bg image*/
+    /*Cover: background-size:100%*/
+    background-size: cover;
+    font-family: 'nunito', sans-serif;
+    box-sizing: border-box;
+    height: 100vh;
+    white-space: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+
+nav {
+    width: 201vh;
+    padding: 2.7vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    width: 20%;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+nav .menu {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 200;
+}
+
+nav a:first-child {
+    color: #168aad;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 85vh;
+    width: 100%;
+    font-weight: 6rem;
+    font-size: 2rem;
+    color: white;
+    margin: 0;
+}
+
+section h1 {
+    margin: 0px;
+    font-size: 2.5rem;
+    text-shadow: 4px 4px 2px black;
+}
+
+section h2 {
+    text-shadow: 2px 2px 2px black;
+    font-weight: 6rem;
+    font-size: 2rem;
+    color: white;
+    margin: 0px;
+    text-shadow: 2px 1px 2px black;
+}
+
+section a {
+    padding: 10px 25px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+section .btn1 {
+    color: black;
+    background: white;
+}
+
+section .btn2 {
+    color: #fff;
+    background: #34a0a4;
+}
+
+section .btn1:active {
+    background-color: #34a0a4;
+    color: #fff;
+    transition: all 500ms ease-in;
+}
+
+section .btn2:active {
+    background-color: white;
+    color: black;
+    transition-duration: all 500ms ease-in;
+}
+
+@media (max-width: 1200px) {
+    section h1 {
+        font-size: 2rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.part1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.planning {
+    background-color: #f4f4f4;
+    color: #666;
+    text-align: center;
+    padding: 70px 250px;
+    border: 25px;
+}
+
+.part2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.part2 a {
+    background-color: #168aad;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px 40px;
+    margin: 50px;
+    border: 25px;
+    border-radius: 10px;
+    text-shadow: 0.5px 0 0 black;
+    animation-delay: 0.5s;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+}
+
+.part2 a:nth-of-type(1) {
+    background-color: #34a0a4;
+}
+
+.part2 a:nth-of-type(2) {
+    background-color: #52b69a;
+}
+
+.part2 a:nth-of-type(3) {
+    background-color: #76c893;
+}
+
+.part2 a:nth-of-type(4) {
+    background-color: #99d98c;
+}
+
+.part2 a:nth-of-type(5) {
+    background-color: #b5e48c;
+}
+
+@media(max-width:1000px) {
+    .part2 {
+        flex-direction: column;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.end {
+    background-color: grey;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 50px 0px;
+    width: 100%;
+}
+
+h5 {
+    margin: 0;
+}
+
+h5:last-child {
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+h3 {
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 100px 0 7px;
+}
+
+
+.end a {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #f27059;
+    padding: 10px;
+}
+
+.aboutus {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.knowus a {
+    display: block;
+    font-size: 0.8rem;
+    color: white;
+    padding: 10px;
+
+}
+
+.contact a {
+    display: block;
+    font-size: 0.8rem;
+    color: white;
+    padding: 0;
+}
+
+.us {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.leave {
+    font-size: 1.2rem;
+    padding: 20px 5px 5px 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.name input {
+    border-radius: 10px;
+}
+
+.name label {
+    text-align: center;
+    padding: 20px 40px 10px;
+}
+
+.email label {
+    text-align: center;
+    padding: 20px 40px 10px;
+}
+
+.email input {
+    border-radius: 10px;
+}
+
+.lines label {
+    text-align: center;
+    padding: 20px 40px 10px;
+}
+
+.btn3 {
+    color: black;
+    background: #34a0a4;
+}
